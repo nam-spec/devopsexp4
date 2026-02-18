@@ -6,6 +6,6 @@ function login(user) {
  if (user.role === "admin") {
  return "Admin Dashboard";
  }
- return "Unauthorized";
+ return "Unauthorized user";
 }
 module.exports = login;
