@@ -5,7 +5,7 @@ const login = (user) => {
    case "admin":
      return "Admin Dashboard";
    default:
-     return "Unauthorized";
+     return "blocked";
  }
 };
 module.exports = login;
