@@ -1,5 +1,5 @@
 function login(user) {
- if (user.role === "student") {
+ if (user.type === "student") {
  return "Welcome Student";
  }
  return "Access Denied";
