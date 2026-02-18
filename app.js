@@ -1,3 +1,4 @@
+
 function login(user) {
  if (user.role === "student") {
  return "Student Dashboard";
@@ -8,4 +9,3 @@ function login(user) {
  return "Unauthorized";
 }
 module.exports = login;
-
