@@ -1,7 +1,11 @@
+
 function login(user) {
- if (user.type === "student") {
- return "Welcome Student";
+ if (user.role === "student") {
+ return "Student Dashboard";
  }
- return "Access Denied";
+ if (user.role === "admin") {
+ return "Admin Dashboard";
+ }
+ return "Unauthorized";
 }
 module.exports = login;
